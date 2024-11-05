@@ -1,0 +1,8 @@
+runtime: nodejs20
+env: flex
+entrypoint: node app.js
+manual_scaling:
+  instances: 1
+
+env_variables:
+  BOT_TOKEN: "Yra61BdUzbEaW75pY8CpzjkFJyFZtjrXeRNgsjRlybc="
